@@ -1,4 +1,13 @@
 <h1>Banco de Dados para Demon Slayer ⚔️👹</h1>
+<p>Este projeto foi feito para a realização da ultima avaliação do 2º Bimestre do curso de Desenvolvimento de Sofware Multiplataforma da FATEC, Dr. Thomaz Novelino de Franca.</p>
+<h2>Cenário Banco de Dados 🐲</h2>
+<p>O mundo de Demon Slayer se passa no Japão na era Taisho (1912 – 1926), onde os demônios 
+existem nas sombras (demônios são criaturas hediondas que se alimentam de corpos humanos) e 
+nesse mundo existe a organização Kisatsutai (Esquadrão de Caçadores de Onis) que foi criada 
+para a finalidade de proteger a humanidade dos Onis, nesse cenário surge a necessidade de se 
+criar um banco de dados para auxiliar o Kisatsutai a registrar informações sobre demônios, locais 
+de atividade e o histórico de combates.</p>
+![image]
 
 ```sql
 
