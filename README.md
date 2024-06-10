@@ -7,7 +7,12 @@ nesse mundo existe a organização Kisatsutai (Esquadrão de Caçadores de Onis)
 para a finalidade de proteger a humanidade dos Onis, nesse cenário surge a necessidade de se 
 criar um banco de dados para auxiliar o Kisatsutai a registrar informações sobre demônios, locais 
 de atividade e o histórico de combates.</p>
-![image]
+
+![image](https://github.com/Law751/prova.sql/assets/147450456/81895e1f-1b63-4d4e-ae66-e7808e1c20fd)
+
+![image](https://github.com/Law751/prova.sql/assets/147450456/c4e89b5e-3791-498f-a657-3a984b222380)
+
+
 
 ```sql
 
