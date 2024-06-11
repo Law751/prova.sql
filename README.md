@@ -12,12 +12,37 @@ de atividade e o histórico de combates.</p>
 
 ![image](https://github.com/Law751/prova.sql/assets/147450456/c4e89b5e-3791-498f-a657-3a984b222380)
 
+<h1>Modelagem Conceitual - DER 🤓</h1>
+<p>O modelo conceitual é feito com o intúito de exemplificar em forma de diagramas, de qual maneira o sistema de dados vai funcionar, com suas devidas cardinalidades, tabelas, entidades e atributos, como no modelo a seguir:</p>
 
+![image](https://github.com/Law751/prova.sql/assets/147450456/53d8f7d4-815d-4b4e-b588-ff81ce75b615)
+
+<p>No modelo acima, estão presentes todas as entidades, sendo elas: Kisatsutai, Mestre, Equipamento, Missoes e Oni tambem seus atributos como maneira de reunir informações para atividades posteriores.</p>
+
+<h1>Modelagem Lógica - Modelo ER 🍒</h1>
+<p>O modelo lógico tem um objetivo similar ao modelo conceitual, a sua diferença é que ele exemplifica o modelo físico, agora ilustrando as chaves primarias e estrangeiras e os IDs</p>
+
+![image](https://github.com/Law751/prova.sql/assets/147450456/4eba05fc-99a4-42b5-97a5-84c7a42ff0e6)
+
+<p>Nota:Para as cardinalidades que possuem (n,n), são criadas novas tabelas pra conter e agrupar informações das suas respectivas entidades, atributos compostos são "dissolvidos" e multivalorados se transformam em tabelas.</p>
+
+<h1>Criação de Tabelas 📑</h1>
+<p>As tabelas principais são, Kisatsutai(Informações principais dos caçadores membros do Kisatsutai), Mestre(Os mestres de técnicas de respiração da organização), Equipamento(Informações do equipamento unico de cada membro da organização), Missoes(Informações das missões, quem foi atribuido a aquela missão, se a missão foi concluida, está em andamento ou fracassada), Oni(Informação dos demonios catalogados pela organização) e Kis_Mis("Tabela Ponte" que faz relação entre a colaboração N:N da tabela Kisatsutai e Missao)</p>
+
+<h1>Criando o Database 📆</h1>
+<p>Para criarmos a database, ou banco de dados, é necessário utilizar o seguinte comando:</p>
 
 ```sql
 
 CREATE DATABASE Prova2;
 use Prova2
+
+```
+
+<h1>Criando as Tabelas 🖥️</h2>
+
+
+```sql
 
 CREATE TABLE Equipamento(
 	ID_EQUIPAMENTO		INTEGER PRIMARY KEY identity,
