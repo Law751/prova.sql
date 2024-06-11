@@ -286,6 +286,7 @@ SELECT * FROM Oni;
 SELECT * FROM Missao;
 
 ```
+![image](https://github.com/Law751/prova.sql/assets/147450456/b0c59bcb-3648-4219-b384-3c56894fe998)
 
 <h2>Atualizar</h2>
 
